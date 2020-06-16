@@ -15,7 +15,7 @@ print("Type rock for rock, paper for paper, and oh who am I kidding, you know ho
 print()
 repeat = True
 while repeat == True:
-	user_input = input("What's your choice?:")
+	user_input = input("What's your choice?: ")
 	if user_input.lower() == "rock":
 		user_choice = "rock"
 	elif user_input.lower() == "paper":
