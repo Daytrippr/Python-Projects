@@ -61,7 +61,7 @@ while repeat == True:
 	print(divisors)"""
 
 #5 compare two lists and print all common numbers in the list
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+"""a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 c = []
 for item in a:
@@ -69,3 +69,32 @@ for item in a:
 		if item == items:
 			c.append(item)
 print(c)
+"""
+
+#6 palindrome checker; user gives an input, program checks for palindrome
+###WIPWIPWIP
+"""repeat = True
+while repeat == True:
+	word = input("Check to see if a word is a palindrome!:")
+	counter = 0
+	for letter in word:
+		if letter[:] == letter[:]:
+			counter == 1
+	if counter > 0:
+		print("Palindrome!")
+
+
+
+#[r       a       c        e       c      a       r]
+#[0       1       2        3       4      5       6]"""
+
+
+#7 using list comprehension, create a list that takes the evens from an existing list
+"""a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+evens = [i for i in a if i % 2 == 0]
+print(evens)"""
+
+
+
+#9
+
